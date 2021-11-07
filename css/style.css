@@ -1,0 +1,295 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+::-webkit-input-placeholder { /* WebKit browsers */
+   color:   #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:     #fff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:     #fff;
+}
+
+body{
+	margin: 0 auto;
+}
+.wrapper{
+
+max-width: 100vw;
+margin: 0 auto;
+}
+.header {
+	
+background-image: url('../img/rostyslav-savchyn-4nAh6u7dD1g-unsplash\ 1\ \(1\).png')  ;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+height: 1039px;
+
+
+}
+.container {
+	max-width: 997px;
+	margin: 0 auto;
+}
+.header__row {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+align-items: center;
+}
+.header__logo a {
+font-family: Mukta;
+font-weight: 800;
+font-size: 51px;
+line-height: 85px;
+color: #000000;
+}
+.nav {
+}
+.nav__link {
+	font-family: Mukta;
+font-weight: 600;
+font-size: 20px;
+line-height: 33px;
+margin-right: 44px;
+color: #000000;
+}
+.nav__link :last-child{
+margin-right: 0;
+}
+.acoount a {
+	font-family: Mukta;
+font-size: 20px;
+line-height: 33px;
+color: #000000;
+}
+.acoount__icon{
+margin-top: 8px;
+}
+.follow{
+padding-top: 155px;
+margin-left: -50px;
+}
+.follow__link{
+	margin-left: 5px;
+
+}
+.follow__link-img{
+	margin-bottom: 13px;
+
+}
+.follow__text {
+	writing-mode: vertical-rl;
+	font-family: Mukta;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 33px;
+margin-bottom: 25px;
+color: #FFFFFF;
+}
+.hero{
+
+	padding-top: 103px;
+	text-align: center;
+}
+.line{
+	width: 70px;
+	margin: 10px 27px 0 -365px;
+	margin-bottom: 25px;
+}
+.welcome{
+
+	font-family: MS Reference Sans Serif;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFA86;
+	
+}
+
+.header__title{
+	font-family: Mongolian Baiti;
+	font-size: 60px;
+	line-height: 69px;
+	color: #FFFFFF;
+
+}
+.scroll{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+margin:15px 16.5px 0 -400px;
+}
+.scrool__arrow {
+	
+	width: 18px;
+height: 29px;
+}
+
+.content {
+	background: #002922;
+	
+}
+.travel {
+padding-top: 120px;
+
+}
+
+.travel__row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.travel__content {
+	
+	max-width: 370px;
+	margin-right: 78px;
+}
+.start{
+	font-family: Montserrat;
+font-size: 14px;
+line-height: 17px;
+color: #FFFA86;
+}
+.linee{
+	margin: 6px 27px  19px 0;
+}
+.title {
+	font-family: Mongolian Baiti;
+font-size: 52px;
+line-height: 60px;
+color: #FFFFFF;
+}
+.text {
+font-family: Mongolian Baiti;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+
+}
+.link{
+	margin-top: 16px;
+}
+.link__text {
+	font-family: Montserrat;
+font-size: 14px;
+line-height: 17px;
+color: #FFFA86;
+margin: 0px 15px 0 0;
+}
+.picking__row{
+padding-top: 120px;
+display: flex;
+margin-left: 80px;
+
+}
+.picking__content{
+margin-left: 97px;
+max-width: 386px;
+}
+
+.where{
+	padding-top: 109px;
+	padding-bottom: 118px;
+}
+.where__row {
+	display: flex;
+align-items: center;
+justify-content: center;
+}
+.where__content {
+	max-width: 370px;
+	margin-right: 78px;
+}
+
+.footer{
+	height: 271px;
+	
+	background-color: #003229;
+}
+.footer__row {
+	display: flex;
+justify-content: space-evenly;
+}
+.footer__logo {
+	padding-top: 43px;
+}
+.footer__title {
+font-family: Mukta;
+font-weight: 800;
+font-size: 41px;
+color: #FFFFFF;
+
+}
+.sub__title {
+width: 323px;
+font-family: Montserrat;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+margin-top: 16px;
+}
+.blog{
+	padding-top: 53px;
+}
+.mini-title{
+font-family: Montserrat;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #FFFA86;
+}
+.list a{
+font-family: Montserrat;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+}
+
+.blog__title {
+
+margin-bottom: 33px;
+}
+.blog__list {
+margin-bottom: 18px;
+
+}
+.camping {
+	padding-top: 53px;
+
+}
+.camping__title {
+	margin-bottom: 29px;
+
+}
+.camping__list {
+	margin-bottom: 10px;
+}
+.camping__link{
+	margin-right:14px ;
+}
+
