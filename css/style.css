@@ -28,33 +28,27 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
    color:     #fff;
 }
 
-body{
-	margin: 0 auto;
-}
 .wrapper{
-
 max-width: 100vw;
 margin: 0 auto;
 }
 .header {
-	
 background-image: url('../img/rostyslav-savchyn-4nAh6u7dD1g-unsplash\ 1\ \(1\).png')  ;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
 height: 1039px;
-
-
 }
 .container {
-	max-width: 997px;
+	max-width: 1050px;
 	margin: 0 auto;
 }
 .header__row {
-	display: flex;
-	justify-content: space-between;
-	padding-top: 50px;
+display: flex;
+justify-content: space-between;
+padding-top: 50px;
 align-items: center;
+padding: 0 25px;
 }
 .header__logo a {
 font-family: Mukta;
@@ -63,8 +57,7 @@ font-size: 51px;
 line-height: 85px;
 color: #000000;
 }
-.nav {
-}
+
 .nav__link {
 	font-family: Mukta;
 font-weight: 600;
@@ -87,20 +80,17 @@ margin-top: 8px;
 }
 .follow{
 padding-top: 155px;
-margin-left: -50px;
+
 }
 .follow__link{
 	margin-left: 5px;
-
 }
 .follow__link-img{
 	margin-bottom: 13px;
-
 }
 .follow__text {
-	writing-mode: vertical-rl;
-	font-family: Mukta;
-font-style: normal;
+writing-mode: vertical-rl;
+font-family: Mukta;
 font-weight: 500;
 font-size: 20px;
 line-height: 33px;
@@ -108,30 +98,28 @@ margin-bottom: 25px;
 color: #FFFFFF;
 }
 .hero{
-
-	padding-top: 103px;
-	text-align: center;
+	max-width: 600px;
+	margin: 103px auto 0 ;
 }
 .line{
 	width: 70px;
-	margin: 10px 27px 0 -365px;
+	margin: 10px 27px 0 0;
 	margin-bottom: 25px;
+	text-align: start;
 }
 .welcome{
-
+	display: block;
 	font-family: MS Reference Sans Serif;
 	font-size: 20px;
 	line-height: 24px;
 	color: #FFFA86;
-	
 }
-
 .header__title{
+	
 	font-family: Mongolian Baiti;
 	font-size: 60px;
 	line-height: 69px;
 	color: #FFFFFF;
-
 }
 .scroll{
 	font-family: Montserrat;
@@ -140,30 +128,26 @@ color: #FFFFFF;
 	font-size: 20px;
 	line-height: 24px;
 	color: #FFFFFF;
-margin:15px 16.5px 0 -400px;
+margin:15px 16.5px 0 0;
 }
 .scrool__arrow {
-	
-	width: 18px;
+width: 18px;
 height: 29px;
 }
-
 .content {
 	background: #002922;
-	
+	margin: 0 auto;
 }
 .travel {
 padding-top: 120px;
 
 }
-
 .travel__row {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .travel__content {
-	
 	max-width: 370px;
 	margin-right: 78px;
 }
@@ -177,7 +161,7 @@ color: #FFFA86;
 	margin: 6px 27px  19px 0;
 }
 .title {
-	font-family: Mongolian Baiti;
+font-family: Mongolian Baiti;
 font-size: 52px;
 line-height: 60px;
 color: #FFFFFF;
@@ -187,13 +171,12 @@ font-family: Mongolian Baiti;
 font-size: 14px;
 line-height: 16px;
 color: #FFFFFF;
-
 }
 .link{
 	margin-top: 16px;
 }
 .link__text {
-	font-family: Montserrat;
+font-family: Montserrat;
 font-size: 14px;
 line-height: 17px;
 color: #FFFA86;
@@ -203,13 +186,15 @@ margin: 0px 15px 0 0;
 padding-top: 120px;
 display: flex;
 margin-left: 80px;
-
+align-items: center;
+justify-content: center;
 }
 .picking__content{
 margin-left: 97px;
+align-items: center;
+justify-content: center;
 max-width: 386px;
 }
-
 .where{
 	padding-top: 109px;
 	padding-bottom: 118px;
@@ -223,10 +208,8 @@ justify-content: center;
 	max-width: 370px;
 	margin-right: 78px;
 }
-
 .footer{
-	height: 271px;
-	
+	min-height: 271px;
 	background-color: #003229;
 }
 .footer__row {
@@ -241,10 +224,9 @@ font-family: Mukta;
 font-weight: 800;
 font-size: 41px;
 color: #FFFFFF;
-
 }
-.sub__title {
-width: 323px;
+.sub__title-adaptive {
+
 font-family: Montserrat;
 font-weight: 500;
 font-size: 18px;
@@ -252,8 +234,16 @@ line-height: 22px;
 color: #FFFFFF;
 margin-top: 16px;
 }
+.sub__titlee{
+	display: none;
+}
+.footer__info{
+display: flex;
+padding-right: 77px;
+}
 .blog{
 	padding-top: 53px;
+	margin-right: 150px;
 }
 .mini-title{
 font-family: Montserrat;
@@ -269,7 +259,6 @@ font-size: 14px;
 line-height: 17px;
 color: #FFFFFF;
 }
-
 .blog__title {
 
 margin-bottom: 33px;
@@ -277,6 +266,9 @@ margin-bottom: 33px;
 .blog__list {
 margin-bottom: 18px;
 
+}
+.blog__list:last-child{
+	margin-bottom: 0px;
 }
 .camping {
 	padding-top: 53px;
@@ -293,3 +285,141 @@ margin-bottom: 18px;
 	margin-right:14px ;
 }
 
+@media screen and (max-width: 920px){
+
+
+
+
+}
+
+@media screen and (max-width:490px){
+
+
+	.container{
+		
+		padding: 3%;
+	}
+	.footer{
+		padding: 3%;
+	}
+	.hero{
+		max-width: 232px;
+	}
+	.welcome{
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.scroll{
+		font-size: 18px;
+		line-height: 22px;	
+	}
+	.header{
+		height: 557px;
+	}
+	.nav{
+		display: none;
+	}
+	.text{
+		display: none;
+	}
+	.follow{
+		display: none;
+	}
+	.header__row{
+		justify-content: space-between;
+		padding: 0;
+	}
+	.header__logo a{
+		font-weight: 800;
+		font-size: 35px;
+		line-height: 58px;
+	}
+	.acoount a{
+		font-size: 15px;
+line-height: 25px;
+	}
+	.acoount__icon{
+		margin-top: 3px;
+	}
+	.header__title{
+		font-size: 25px;
+line-height: 29px;
+	}
+.title{
+	font-size: 19px;
+	line-height: 22px;
+}
+.start{
+	font-size: 10px;
+line-height: 12px;
+color: #FFFA86;
+}
+.linee{
+	width: 30.43px;
+	margin: 6px 5px 8px 0;
+}
+.link__text{
+	font-size: 10px;
+line-height: 12px;
+margin: 0 5px 0 0;
+}
+
+.picture{
+	width: 160px;
+	height: 160px;
+}
+.travel__content{
+margin-right: 17px;
+max-width: 102px;
+}
+.picking__content{
+	margin-left: 11px;
+	max-width: 102px;
+}
+.picking__row{
+	margin-left: 0;
+}
+.where__content{
+	margin-right: 5px;
+	max-width: 102px;
+}
+.footer__logo{
+	padding-top: 15px;
+}
+.footer__title{
+font-size: 35px;
+text-align: center;
+}
+.sub__title{
+	display: none;
+}
+.footer__row{
+	flex-wrap: wrap;
+}
+.footer__info{
+padding: 10px 0 0 0;
+justify-content: space-around;
+}
+.mini-title{
+	margin-bottom: 15px;
+}
+.blog{
+	padding: 0;
+	margin: 0 105px 0 0;
+}
+.camping {
+	padding: 0;
+}
+.blog__list{
+	margin-bottom: 10px;
+}
+.sub__titlee {
+display: block;	
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+color: #B4B4B4;
+text-align: start;
+padding-top: 15px;
+}
+}
