@@ -412,6 +412,9 @@ margin-bottom: 18px;
 		top: 15px;
 		right: 0px;
 	}
+	.menu__box{
+		width: 100%;
+	}
 	.container{
 		
 		padding: 3%;
