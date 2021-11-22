@@ -385,23 +385,86 @@ margin-bottom: 18px;
 }
 
 
-@media screen and (max-width: 800px){
+
+
+@media screen and (max-width: 900px){
 
 	
-
+	.container{
+		
+		padding:  0 3%;
+	}
+	.footer{
+		padding:0 3%;
+	}
 
 .hamburger-menu{
 	display: block;
 }
+.header__row{
+	justify-content: space-between;
+	text-align: end;
+}
 .nav{
 	display: none;
 }
-.footer__logo{
+.acoount{
+position: absolute;
+right: 70px;
+}
+.menu__btn {
+	top: 30px;
+	right: 0px;
+}
+.hero{
+	max-width: 500px;
+}
+.header__title{
+	font-size: 50px ;
 	
-} 
+}
+.picture{
+	width: 280px;
+	height: 280px;
+}
 
 .picking__row{
 	margin-left: -10px;
+}
+.footer__logo{
+	margin-right: 40px;
+}
+.footer__info{
+	padding: 0;
+}
+}
+@media screen and (max-width:700px){ 
+	.container{
+		
+		padding: 3%;
+	}
+	.footer{
+		padding: 3%;
+	}
+.hero{
+	max-width: 400px;
+}
+	.header__title{
+		font-size: 40px ;
+	}
+.title{
+	font-size: 35px;
+	line-height: 40px;
+}
+.text{
+	display: none;
+}
+.footer__logo{
+	margin-right: 30px;
+}
+.blog{
+	margin-right: 40px;
+}
 }
 @media screen and (max-width:490px){
 
@@ -516,8 +579,9 @@ text-align: center;
 .footer__row{
 	flex-wrap: wrap;
 }
+
 .footer__info{
-padding: 10px 5% 0 ;
+padding: 10px 0 0 ;
 justify-content: space-between;
 }
 .mini-title{
@@ -542,4 +606,5 @@ color: #B4B4B4;
 text-align: start;
 padding-top: 15px;
 }
+
 }
